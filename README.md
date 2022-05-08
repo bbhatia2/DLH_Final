@@ -25,7 +25,7 @@ Accuracies at 50, 70, and 80 iterations
       publisher={IEEE}
     }
 
-## Changes to code
+## Changes to code & Dependencies
 We used Google Colab to reproduce the paper. The github repo is generated from that. 
 
 The following changes were made to the code:
@@ -36,11 +36,12 @@ The following changes were made to the code:
 ## Dataset
 The cleaned dataset can be found by emailing the author. The author has mentioned to clean the data ourselves and paper does not mention specifics of how to clean data. Upon emailing author, he sent us the cleaned dataset (https://drive.google.com/file/d/14TqgvWHvWuxQU2egEcgSR3_AsvQNgVYr/view); however, the original dataset is Temple University Hospital Database (EEG corpus)
 
-## Steps to run code
+## Steps to run code & Data Download Instructions
 1. Download dataset to Drive on Google Colab
 2. Put path to drive in root dir
 3. Change factory run time to GPU (Runtime > change runtime type > GPU)
-4. Run cells 
+4. Run cells to run preprocessing, training, and evaluation code
+5. Last cell has our results
 
 
 
