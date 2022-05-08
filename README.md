@@ -32,7 +32,7 @@ The following changes were made to the code:
 ## Dataset
 The cleaned dataset can be found by emailing the author. The author has mentioned to clean the data ourselves and paper does not mention specifics of how to clean data. Upon emailing author, he sent us the cleaned dataset (https://drive.google.com/file/d/14TqgvWHvWuxQU2egEcgSR3_AsvQNgVYr/view); however, the original dataset is Temple University Hospital Database (EEG corpus)
 
-##Steps to run code
+## Steps to run code
 1. Download dataset to Drive on Google Colab
 2. Put path to drive in root dir
 3. Change factory run time to GPU (Runtime > change runtime type > GPU)
