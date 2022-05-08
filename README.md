@@ -21,16 +21,22 @@ Our Google Colab Link: https://colab.research.google.com/drive/11oV2X34BYDPcpVYb
       publisher={IEEE}
     }
 
-##
+## Changes to code
 We used Google Colab to reproduce the paper. The github repo is generated from that. 
 
 The following changes were made to the code:
 1. We added Tensorflow 1.x to the first cell where libraries are imported for version control. 
 2. Session was disabled to match tensorflow version control in the last cell where tf.v1.compact.placeholder is used.
-3. We changed the number of steps (variable) in the last cell for training model due to limitations in computational feasibility. Previously, it was 51. Now we use 7 - 3 of which are for training.
+3. We changed the number of steps (variable) in the last cell for training model due to limitations in computational feasibility. Now we use 81 epochs.
 
+## Dataset
+The cleaned dataset can be found by emailing the author. The author has mentioned to clean the data ourselves and paper does not mention specifics of how to clean data. Upon emailing author, he sent us the cleaned dataset (https://drive.google.com/file/d/14TqgvWHvWuxQU2egEcgSR3_AsvQNgVYr/view); however, the original dataset is Temple University Hospital Database (EEG corpus)
 
-The cleaned dataset can be found by emailing the author. The author has mentioned to clean the data ourselves and paper does not mention specifics of how to clean data. Upon emailing author, he sent us the cleaned dataset; however, the original dataset is Temple University Hospital Database (EEG corpus)
+##Steps to run code
+1. Download dataset to Drive on Google Colab
+2. Put path to drive in root dir
+3. Change factory run time to GPU (Runtime > change runtime type > GPU)
+4. Run cells 
 
 
 
