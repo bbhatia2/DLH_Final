@@ -8,6 +8,10 @@ Link to paper: https://arxiv.org/pdf/1909.10868.pdf
 Original github code: https://github.com/xiangzhang1015/adversarial_seizure_detection/blob/master/main.py
 Our Google Colab Link: https://colab.research.google.com/drive/11oV2X34BYDPcpVYbxPJUmhOczPhyeFJp?usp=sharing
 
+PDF File contains our results and outputs (last two cells outputs). A screenshot is provided here below for convenience as well.
+<img width="937" alt="image" src="https://user-images.githubusercontent.com/43009733/167318688-4c57b8f2-976c-411e-8d09-9e8b97213f60.png">
+Accuracies at 50, 70, and 80 iterations
+
 ## Citiation
 
     @article{zhang2020adversarial,
