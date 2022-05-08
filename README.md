@@ -6,6 +6,7 @@ Paper ID 302
 
 Link to paper: https://arxiv.org/pdf/1909.10868.pdf
 Original github code: https://github.com/xiangzhang1015/adversarial_seizure_detection/blob/master/main.py
+Our Google Colab Link: https://colab.research.google.com/drive/11oV2X34BYDPcpVYbxPJUmhOczPhyeFJp?usp=sharing
 
 ## Citiation
 
