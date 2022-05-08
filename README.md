@@ -3,6 +3,17 @@
 Link to paper: https://arxiv.org/pdf/1909.10868.pdf
 Original github code: https://github.com/xiangzhang1015/adversarial_seizure_detection/blob/master/main.py
 
+@article{zhang2020adversarial,
+  title={Adversarial representation learning for robust patient-independent epileptic seizure detection},
+  author={Zhang, Xiang and Yao, Lina and Dong, Manqing and Liu, Zhe and Zhang, Yu and Li, Yong},
+  journal={IEEE journal of biomedical and health informatics},
+  volume={24},
+  number={10},
+  pages={2852--2859},
+  year={2020},
+  publisher={IEEE}
+}
+
 We used Google Colab to reproduce the paper. The github repo is generated from that. 
 
 The following changes were made to the code:
